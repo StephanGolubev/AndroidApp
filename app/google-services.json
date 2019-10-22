@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "164606332419",
+    "firebase_url": "https://englishapp-3c0ab.firebaseio.com",
+    "project_id": "englishapp-3c0ab",
+    "storage_bucket": "englishapp-3c0ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164606332419:android:4f6d116a90a493fe",
+        "android_client_info": {
+          "package_name": "com.evgenyenglish.englishapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164606332419-8qkkda14drr3md6723k8t5ivmak66m9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.evgenyenglish.englishapp",
+            "certificate_hash": "15d1ad4d66cc95ab32a04194fafa046db07644f3"
+          }
+        },
+        {
+          "client_id": "164606332419-8fmj5flqc018gq3nkcv2la0eaqrtsmrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMIFa-MZGcRmVCKgfZIIDPDGTseGM3aWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164606332419-8fmj5flqc018gq3nkcv2la0eaqrtsmrq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "164606332419-mdhk7ft425783tlfhro4lreg4pqktp9i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "free.AudioRec"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

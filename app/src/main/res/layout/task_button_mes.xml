@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:shimmer_color="http://schemas.android.com/tools"
+    android:layout_gravity="right"
+    android:orientation="vertical"
+    android:paddingRight="10dp">
+
+    <RelativeLayout
+        android:id="@+id/back_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingTop="2sp"
+        android:paddingBottom="2sp">
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/shimmer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            app:shimmer_color="#A5A4A4"
+            app:shimmer_mask_width="0.5"
+            app:shimmer_animation_duration="1300">
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/task_button"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Button"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

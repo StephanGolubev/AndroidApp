@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/back_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingTop="2sp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="2sp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/task_think">
+
+            <ImageView
+                android:id="@+id/repeat_list"
+                android:layout_width="59dp"
+                android:layout_height="16dp"
+                android:layout_gravity="right|center_horizontal|center_vertical"
+                android:layout_marginLeft="45sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="45sp"
+                android:layout_marginBottom="10sp"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <com.eyalbira.loadingdots.LoadingDots
+            android:id="@+id/thingdots"
+            android:layout_width="60dp"
+            android:layout_height="21dp"
+            android:layout_gravity="right|center_horizontal|center_vertical"
+            android:layout_marginLeft="45sp"
+            android:layout_marginTop="0sp"
+            android:layout_marginRight="45sp"
+
+            android:layout_marginBottom="10sp"
+
+            app:LoadingDots_auto_play="true"
+            app:LoadingDots_dots_color="#747474"
+            app:LoadingDots_dots_count="3"
+            app:LoadingDots_dots_size="15dp"
+
+            app:LoadingDots_dots_space="6dp"
+            app:LoadingDots_jump_duration="200"
+
+            app:LoadingDots_jump_height="4dp"
+            app:LoadingDots_loop_duration="800"
+            app:LoadingDots_loop_start_delay="100" />
+
+    </RelativeLayout>
+
+</LinearLayout>

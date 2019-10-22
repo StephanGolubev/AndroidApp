@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:font="http://schemas.android.com/apk/assets"
+    android:background="@color/White"
+    tools:context=".PayActivity">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_weight="0"
+            android:src="@drawable/buyev" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/BuyLay"
+            >
+            <Button
+                android:id="@+id/button_pay"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="19dp"
+                android:text="Купи сейчас 3500р"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light"
+                android:background="@drawable/buttons_pay"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons"
+                android:text=""
+                android:textColor="@color/White"
+
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons"
+                android:text=""
+                android:textColor="@color/White"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttons"
+                android:text=""
+                android:textColor="@color/White"
+
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/go_back_pay"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="11dp"
+            android:layout_width="150dp"
+            android:text="Все уроки"
+            android:textColor="@color/White"
+            android:background="@drawable/buttons"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+
+</LinearLayout>

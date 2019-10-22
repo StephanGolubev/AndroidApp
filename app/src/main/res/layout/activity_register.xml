@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:font="http://schemas.android.com/apk/assets"
+    android:background="@color/White"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/register_text"
+        android:textColor="@color/EvgenyGrey"
+        android:textSize="30sp"
+        font:typeface="font/Roboto/RobotoSlab-Bold.ttf" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/buttons"
+        android:text="@string/regitser_button_text"
+        android:fontFamily="sans-serif-light"
+        font:typeface="font/Roboto/RobotoSlab-Bold.ttf"
+        android:textColor="@color/White"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="40dp"
+        font:typeface="font/Roboto/RobotoSlab-Bold.ttf"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ваше имя!"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="sans-serif-light"
+
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="E-mail адрес"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="sans-serif-light"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:textSize="25sp" />
+
+</RelativeLayout>

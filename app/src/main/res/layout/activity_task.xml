@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/line_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaskActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/EvgenyGrey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lessonsi" />
+
+            <TextView
+                android:id="@+id/name_lesson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="22sp"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                tools:ignore="InvalidId"
+                tools:text="fff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="false"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:paddingLeft="10sp"
+        android:paddingTop="15sp"
+        android:paddingRight="10sp"
+        android:paddingBottom="15sp"
+        android:transcriptMode="alwaysScroll"
+        android:focusableInTouchMode="false"
+        android:listSelector="@android:color/transparent"
+        android:focusable="false">
+    </ListView>
+
+</LinearLayout>

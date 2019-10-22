@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34495E</color>
+    <color name="colorPrimaryDark">#81535E</color>
+    <color name="colorAccent">#34495E</color>
+    <color name="EvgenyGrey">#444444</color>
+    <color name="ButtonDisables">#3A3939</color>
+    <color name="Message">#c8c8c8</color>
+    <color name="White">#ffffff</color>
+    <color name="LessonButton">#757575</color>
+    <color name="LeesonButtonActive">#cbb36b</color>
+    <color name="BuyLay">#242424</color>
+    <color name="color_all">#757575</color>
+    <color name="colorSpinner">#AAA</color>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
