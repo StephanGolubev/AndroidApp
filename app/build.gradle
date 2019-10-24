@@ -59,4 +59,3 @@ apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle p
 
 android { sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } } }
 
-com.google.gms.googleservices.GoogleServicesPlugin.config.disableVersionCheck = true
